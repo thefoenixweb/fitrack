@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { UserIcon, UploadIcon, XIcon } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
 export function Profile() {

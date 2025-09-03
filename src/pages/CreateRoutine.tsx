@@ -13,7 +13,7 @@ interface CreateRoutineProps {
 }
 
 export function CreateRoutine({ navigateTo, editRoutineId, setEditRoutineId }: CreateRoutineProps) {
-  const { routines, createRoutine, updateRoutine, loading, error } = useAppContext()
+  const { routines, createRoutine, updateRoutine, error } = useAppContext()
 
   const emptyExercise: Exercise = {
     id: uuidv4(),
