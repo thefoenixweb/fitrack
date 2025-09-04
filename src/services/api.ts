@@ -1,5 +1,5 @@
 // Get API URL from environment variable or use default
-const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api"
+const API_BASE_URL = import.meta.env.VITE_API_URL || "fittrackapi-aec8d4a4fngnddev.canadacentral-01.azurewebsites.net/api"
 
 console.log("API Base URL:", API_BASE_URL)
 
